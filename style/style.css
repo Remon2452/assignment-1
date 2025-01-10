@@ -1,0 +1,92 @@
+
+body{
+padding: 0;
+}
+.main-part1{
+position: static;
+width: 1280px;
+height: 560px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 64;
+padding: 80px 100px 80px 100px;
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 80px 0px;
+border-radius: 24px;
+
+background: rgb(198, 228, 214);
+
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 23px;
+}
+.front1{
+    color: rgba(14, 14, 14, 0.5);
+font-family: Fira Sans;
+font-size: 24px;
+font-weight: 500;
+line-height: 29px;
+letter-spacing: 0%;
+text-align: left;
+}
+.front2{
+    display: flex;
+    color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 56px;
+font-weight: 700;
+line-height: 67px;
+letter-spacing: 0%;
+text-align: left;
+gap: 64px;
+}
+.head-front{
+    color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 32px;
+font-weight: 700;
+line-height: 38px;
+letter-spacing: 0%;
+text-align: left;
+padding-right: 20px;
+}
+.front3{
+    border-radius: 8px;
+
+background: rgb(0, 106, 80);
+color: rgb(255, 255, 255);
+font-family: Fira Sans;
+font-size: 18px;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+}
+.header-button{
+    text-align: right;
+    box-sizing: border-box;
+border: 1px solid rgb(0, 106, 80);
+border-radius: 7px;
+color: rgb(0, 106, 80);
+font-family: Fira Sans;
+font-size: 18px;
+font-weight: 500;
+line-height: 22px;
+letter-spacing: 0%;
+}
+.hero{
+width: 474.03px;
+height: 329.21px;
+left: 157.37%;
+right: -157.37%;
+top: 20%;
+bottom: -2.3%;
+}
