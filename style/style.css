@@ -226,6 +226,54 @@ text-align: left;
    .news-meta { color: #888; margin-bottom: 10px; }
 
    .news-excerpt { margin-bottom: 10px; }
-   .aa{
-    
-   }
+   .container { text-align: center;
+     background: white;
+     padding: 20px; 
+     border-radius: 10px; 
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); }
+     .title{
+
+        color: rgb(14, 14, 14);
+        font-family: Fira Sans;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 48px;
+        letter-spacing: 0%;
+        text-align: center;
+     }
+     .description{
+        color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+     }
+     .donation-buttons { display: flex; 
+        justify-content: center;
+         gap: 10px;
+         margin-bottom: 20px; }
+         .donation-button {
+             padding: 10px 20px;
+             border: 1px solid #ccc;
+              border-radius: 5px; cursor: pointer;
+               transition: background-color 0.3s; }
+               .donation-button:hover { background-color: yellow;}
+               .donation-button.selected {
+                 background-color: #c8e6c9;
+                  border-color: #4caf50; }
+                  .other-amount { margin-bottom: 20px; }
+                  .other-amount input { 
+                    width: 100%; 
+                    padding: 10px;
+                     border: 1px solid #ccc;
+                 border-radius: 5px; }
+                 .done-button { 
+                    padding: 10px 20px; 
+                    background-color: #4caf50; 
+                    color: white;
+                     border: none; 
+                     border-radius: 5px; cursor: pointer; 
+                     transition: background-color 0.3s; }
+                     .done-button:hover { background-color: red;}
